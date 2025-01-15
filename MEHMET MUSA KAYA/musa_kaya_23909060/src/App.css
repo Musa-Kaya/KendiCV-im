@@ -1,0 +1,85 @@
+/* Genel Stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #999, #777);
+}
+
+.cv-container {
+  max-width: 800px;
+  height: 1030px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.header p {
+  margin: 5px 0 10px;
+  color: #777;
+}
+
+.social-icons {
+  padding: 4rem 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  margin: 0 20px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0073b1; /* LinkedIn Rengi */
+}
+
+/* Bölüm Başlıkları */
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #777;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin: 5px 0;
+}
+
+.section li strong {
+  color: #333;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

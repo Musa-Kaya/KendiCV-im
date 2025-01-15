@@ -1,0 +1,1 @@
+Bu uygulama React.js ile geliştirilmiştir. İconlar için react-icons kütüphanesi kullanıldı.
